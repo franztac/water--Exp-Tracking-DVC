@@ -91,3 +91,10 @@ target/
 .water_exp_venv
 models
 reports
+
+# Ignore DVC temporary and cache files
+.dvc/tmp/
+.dvc/cache/
+
+# Ignore DVC lock files
+.dvc/tmp/lock
